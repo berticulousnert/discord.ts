@@ -86,10 +86,10 @@ client.on('messageCreate', async (message) => {
             })
         }
     } else {
-        /*message.reply({
+        message.reply({
             content: "I didn't find that command!",
             allowedMentions: { repliedUser: false }
-        })*/
+        })
     }
 })
 
